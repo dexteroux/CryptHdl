@@ -56,4 +56,4 @@ target/
 # OS X
 .DS_Store
 /testlogs/
-*-checkpoint.py
+.ipynb_checkpoints/
