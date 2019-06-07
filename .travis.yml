@@ -7,7 +7,7 @@ install:
   - "pip install -e .[test]"
 script:
   - py.test
-  - coverage run --source=pyskel_bc -m py.test
+  - coverage run --source=phdl -m py.test
 after_success:
   - coveralls
 sudo: false

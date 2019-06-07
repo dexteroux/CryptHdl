@@ -12,16 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Skeleton of a CLI
+# phdl
 
-import click
-
-import pyskel_bc
-
-
-@click.command('pyskel_bc')
-@click.argument('count', type=int, metavar='N')
-def cli(count):
-    """Echo a value `N` number of times"""
-    for i in range(count):
-        click.echo(pyskel_bc.has_legs)
+has_legs = False
+__version__="2.0.0"
